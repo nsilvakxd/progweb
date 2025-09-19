@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "progweb"
+version = "0.1.0"
+description = "progweb2 code for TADS course"
+authors = ["nathan <nathansilvadeandrade22@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+fastapi = "^0.116.1"
+uvicorn = "^0.35.0"
+email-validator = "^2.3.0"
+sqlalchemy = "^2.0.43"
+psycopg2-binary = "^2.9.10"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
